@@ -26,3 +26,22 @@ textarea,
 select {
   font: inherit;
 }
+
+.vibe-bg {
+  background: linear-gradient(
+    130deg,
+    #2b0a3d,
+    #4a0e6b,
+    #0e2a6b,
+    #0b6b6b,
+    #2b0a3d
+  );
+  background-size: 400% 400%;
+  animation: vibe-shift 14s ease infinite;
+}
+
+@keyframes vibe-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
