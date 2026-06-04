@@ -1,2 +1,3 @@
 # ditty-20260604-1kl0jp
-Interactive Ditty workspace.
+
+Created by Ditty as a Vite + React + Tailwind application.
